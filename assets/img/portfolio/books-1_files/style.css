@@ -1,0 +1,399 @@
+/*
+ Theme Name:     Performance Academies Child Theme
+ Description:    Performance Academies Child Theme
+ Author:       Smart 1 Marketing
+ Author URI:   http://smart1marketing.com
+ Template:     Divi
+ Version:      1.0.9.20
+ Text Domain:  smart-cstm-child
+*/
+
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* =Remove unused email icon -- */
+#et-info-email:before {content: none;}
+span.fsRequiredMarker {color:red; font-weight:700;}
+.fsBody {padding: 0!important;}
+.fsBody .fsForm {margin: 0 auto!important; padding: 0 20px 20px!important;}
+
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.s1m-column-5 .et_pb_module:nth-child(-n+4) {
+width: 19.2% !important;
+margin-right: 1% !important;
+margin-left: 0 !important;
+float: left;
+}
+
+.s1m-column-5 .et_pb_module:last-child {
+width: 19.2% !important;
+margin-right: 0 !important;
+margin-left: 0 !important;
+float: left;
+}
+
+.footer-widget h3 {color:#eebc4d;}
+.footer-widget img {margin-right:10px;}
+a.anch-blue {color:#4fafc8;}
+a.anch-gold {color:#eebc4d;}
+
+.et_pb_fullwidth_header {padding: 200px;}
+
+ul#menu-sec-top-menu > li a,
+ul#menu-sec-top-school-menu > li a {
+    padding: 0 40px;
+    line-height: 2em;
+	color:#ffffff;
+	font-size:18px;
+}
+
+.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul#menu-sec-top-school-menu>li {
+    margin-top: 0;
+}
+
+.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul#menu-sec-top-menu>li {
+    margin-top: 0;
+}
+
+.button-pahome {background-color:#a31e4b;}
+.button-paohio {background-color:#4db0c7;}
+.button-pamich {background-color:#ebbd45;}
+.button-paenrol {background-color:#59bf98;}
+
+#et_mobile_nav_menu [class*='button-'] {background-color:transparent;}
+
+#et-secondary-menu > ul > li a {
+    padding: 0 2.9em;
+    line-height: 2em;
+}
+
+#et-secondary-nav li {margin-right: -4px;}
+
+#top-header .container {padding-top: 0;}
+
+#top-menu li {padding-right: 45px; font-size: 16px;}
+#top-menu li a {text-transform:uppercase!important;}
+#top-menu li li {padding: 0 0;}
+#top-menu li li a {width: 240px; padding: 6px 10px; font-size:12px;}
+
+.sec-school-header .mod-logo-menu ul li li {padding: 0 0;}
+.sec-school-header .mod-logo-menu ul li li a {width: 240px; padding: 6px 10px; font-size:12px;}
+
+#et-info-phone {color:#a31e4b; line-height: 2em;font-size: 18px; font-weight: 700;}
+#et-info {padding-bottom: 0;}
+
+/* =State School Blurb Module -- */
+.h-schools .et_pb_blurb_container h4 {color:#a31e4b; font-size:2em; font-weight:800; line-height: 45px;}
+.h-schools .et_pb_blurb_position_left .et_pb_main_blurb_image {width: 45px;}
+
+
+
+/* =Callout Row -- */
+.h-callouts h4 {color:#a31e4b; font-size:2.2em; font-weight:800;}
+.h-callouts h3 {color:#000; font-size:1.3em; margin-top:1em; line-height:1.3em}
+
+
+/* =Enroll Row -- */
+.h-enroll h2 {color:#fff; font-size:2em; font-weight:800;}
+.h-enroll h3 {color:#e3c13c; font-size:1.2em; font-weight:600;}
+
+
+/* =Unlimited Potential Row -- */
+.h-unlimited .et_pb_text {padding:10% 8%;}
+.h-unlimited h2 {color:#a31e4b; font-size:2.2em; line-height:3em;}
+
+
+
+/* =Buttons -- */
+.h-callouts .et_pb_bg_layout_light .et_pb_more_button {color:#fff; padding: 0.5em 2em !important;}
+
+.et_pb_bg_layout_light .et_pb_more_button:hover {color:#a31e4b; border-color: #a31e4b; padding: 0.5em 2em !important;}
+
+
+.s1m_white_button {
+    color: #a31e4b;
+    display: inline-block;
+    text-shadow: none;
+    text-decoration: none;
+    background: #fff;
+    }
+
+.s1m_button {
+    position: relative;
+    padding: 0.5em 2em;
+    border: 1px solid #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.7em !important;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.s1m_white_button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #a31e4b;
+}
+
+/*--- Full Width Header mods --- */
+
+.et_pb_fullwidth_header_container .header-content h1 {font-size: 3vw;
+    color: #fff;}
+
+/*--- About us page rows --- */
+.about-rows h3 {font-weight:800;}
+
+
+/*--- Policy link Container --- */
+.policy-container {background: #7EBEC5; text-align: center;}
+.policy-container h2 {color: #fff; text-align:center;}
+
+#content-area table.policytable td {padding:0; margin-bottom:2%;}
+
+/*--- Tablepress modifications --- */
+.entry-content table:not(.variations) {border: 0; margin: 0;}
+
+.entry-content table.policytable, 
+.tablepress.policytable tbody td, .tablepress.policytable tfoot th  {
+    border: 0;
+}
+
+.entry-content tr td {
+    border: 0;
+    margin: 0;
+	padding:6px 24px;
+}
+
+.tablepress ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1em;
+}
+
+/*--- Jarrett's button --- */
+.s1m2_white_button:hover {
+   background: rgba(255,255,255,0.3);
+   color: #ffffff;
+}
+
+.s1m2_white_button {
+   color: #fff;
+   display: inline-block;
+   text-shadow: none;
+   text-decoration: none;
+   background: transparent;
+   }
+
+.s1m2_button {
+   margin:0 auto 25px auto;
+   position: relative;
+   padding: 0.3em 1em;
+   border: 2px solid;
+   -webkit-border-radius: 45px;
+   -moz-border-radius: 45px;
+   border-radius: 45px;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.7em !important;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   transition: all 0.2s;
+}
+
+.s1m2_button:hover {
+   padding: 0.3em 2em 0.3em 1em;
+   border: 2px solid #fff;
+}
+
+.s1m2_button:after {
+   position: absolute;
+   font-family: "ETmodules" !important;
+   font-weight: normal;
+   font-style: normal;
+   font-variant: normal;
+   font-size: 32px;
+   content: "\35";
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   line-height: 1em;
+   text-transform: none;
+   speak: none;
+   margin-left: -1em;
+   opacity: 0;
+   -webkit-transition: all 0.2s;
+   -moz-transition: all 0.2s;
+   transition: all 0.2s;
+}
+
+.s1m2_button:hover:after,
+.s1m2_home_button:hover:after {
+margin-left: 0;
+opacity: 1;
+}
+
+#forgot-pass{display:none !important}
+
+/*--- Change blog link titles --- */
+.et_pb_posts h2.entry_title a {text-decoration:underline;}
+.et_pb_posts h2.entry_title a:hover {color:#a31e4b;}
+
+/* img title overlay */
+.s1m_overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	max-width: 338px;
+}
+
+.h-welcome .et_pb_text {padding:10% 8%;}
+.h-cta .s1m_overlay h2 {padding:70px 0;}
+.h-cta2 .s1m_overlay h2 {padding:47px 0;}
+.h-cta2 .et_pb_image_6 .s1m_overlay h2 {padding:10% 7%;}
+
+
+.s1m_overlay h2 {
+	margin: auto;
+	text-align: center;
+        color:#fff;
+	font-size: 2em;
+        font-weight:800;
+	max-width:450px;
+}
+
+.h-cta2 .s1m_overlay {max-width: 100%;}
+
+@media only screen and (max-width: 980px) {
+    
+.s1m_overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	left:50%;
+	margin-left:-170px;
+	width:340px;
+	height: 100%;
+    }
+}
+
+.h-welcome h2 {
+    color: #a31e4b;
+    font-size: 2.7em;
+    line-height: 3em;
+}
+
+/*---Inner Page Mods ---*/
+
+.et_pb_fullwidth_header {
+    position: relative;
+    padding: 8% 0;
+}
+
+
+.s1m_page_button {
+    color: #fff;
+    display: inline-block;
+    text-shadow: none;
+    text-decoration: none;
+    background: #a31e4b;
+    position: relative;
+    padding: 0.2em 0.9em;
+    border: 2px solid #a31e4b;;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4em !important;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+
+.s1m_page_button:hover {
+    background: #ffffff;
+    color: #a31e4b;
+}
+
+#et-info-phone:before {
+    content: "\e090";
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+	font-family: ETmodules !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 0;
+    direction: ltr;
+}
+
+.sec-school-header ul.et-menu a {color: #a31e4b;}
+
+.sec-school-header ul.et-menu li.current-menu-ancestor>a, .sec-school-header ul.et-menu li.current-menu-item>a, .sec-school-header ul.et-menu li.current_page_item>a {
+    color: #60050a;
+}
+
+.sec-school-header ul.et-menu li a {
+    font-size: 16px; font-weight:bold;
+}
+
+.sec-school-header ul.et-menu li {
+    padding-right: 43px;
+}
+
+.sec-school-header ul.et-menu>li:last-child {
+    padding-right: 0;
+}
+
+.sec-school-footer h3 {color: #eebc4d;}
+.sec-school-footer {color: #fff;}
+
+.sec-school-footer img {
+    margin-right: 10px;
+}
+
+.s1m_white_button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #a31e4b;
+}
+
+.s1m_white_button {
+    color: #a31e4b;
+    display: inline-block;
+    text-shadow: none;
+    text-decoration: none;
+    background: #fff;
+}
+
+
